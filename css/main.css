@@ -1,0 +1,270 @@
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+/*navbar*/
+
+.navbar {
+	background-color: #171738;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	color: #f5f3f5;
+}
+
+.navbar-brand:hover {
+	color: #7180b9;
+}
+
+.nav-link {
+	font-size: 20px;
+	color: #3423a8;
+	margin: 0 30px;
+
+}
+
+.nav-link:hover {
+	color: #f5f3f5;
+}
+
+.nav-btn {
+	background-color: #3423a8;
+	font-size: 20px;
+	border: 2px solid #3423a8;
+	color: #f5f3f5;
+	border-radius: 0;
+	padding: 5px 5px;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+.nav-btn:hover {
+	background-color: #f5f3f5;
+	color: #141414;
+	border: 2px solid #f5f3f5;
+
+}
+
+.navbar-toggler {
+	border: 3px solid #f5f3f5;
+}
+
+/*banner*/
+
+.viewport-60 {
+	min-height: 60vh;
+}
+
+
+
+#banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('images\banner-background.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*top buttons*/
+
+#top-row {
+	background-color: #7180b9;
+}
+
+
+.form-control {
+	border: 2px solid #3423a8;
+}
+
+.input-group-addon {
+	background-color: #3423a8;
+	border: 2px solid #3423a8;
+	color: #f5f3f5;
+}
+
+.top-btn {
+	background-color: transparent;
+	font-size: 25px;
+	border: 2px solid #3423a8;
+	color: #3423a8;
+	border-radius: 0;
+	padding: 5px 12px;
+	text-decoration: none;
+}
+
+.top-btn:hover {
+	background-color: #f5f3f5;
+
+}
+
+.dropdown-menu {
+	background-color: #3423a8;
+}
+
+.dropdown-item {
+	color: #f5f3f5;
+}
+
+/*profile*/
+
+#profile {
+	background-color: #f5f3f5;
+}
+
+#profile .card {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+	url(images/banner-background.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+#profile .card img {
+	margin-top: -60px;
+}
+
+#profile .input-group-addon {
+	background-color: #3423a8;
+	color: #f5f3f5;
+}
+
+#profile .input-group {
+	width: auto;
+}
+
+#profile .profile-links a {
+	font-size: 22px;
+	text-decoration: none;
+	color: #3423a8;
+}
+
+#profile .profile-links a:hover {
+	color: black;
+}
+
+#profile .profile-links .btn {
+	background-color: #3423a8;
+	color: #f5f3f5;
+}
+
+#profile .profile-links .btn:hover {
+	background-color: #7180b9;
+}
+
+/*links*/
+
+.no-padding {
+	padding: 0;
+}
+
+
+.links .list-group-item {
+	background-color: #3423a8;
+	color: #f5f3f5;
+}
+
+.links .list-group-item:hover {
+	background-color: black;
+}
+
+/*tags*/
+
+.tags h4 {
+	color: #3423a8;
+}
+
+.tags a {
+	background-color: #7180b9;
+	font-size: 20px;
+	border-radius: 20px;
+	color: #f5f3f5;
+}
+
+.tags a:hover {
+	background-color: #3423a8;
+}
+
+/*chat*/
+
+.chat .btn {
+	background-color: #3423a8;
+	color: #141414;
+}
+
+.chat .btn:hover {
+	background-color: #f5f3f5;
+}
+
+.chat-container {
+	position: relative;
+}
+
+.chat-container::after {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border: 2px solid white;
+	border-radius: 50%;
+	bottom: 3px;
+	left: 45%;
+	background-color: #3423a8;
+}
+
+/*main content*/
+
+.bg-color {
+	background-color: #A2AbAb;
+}
+
+.card {
+	border: 0;
+	background-color: #f5f3f5;
+}
+
+.card .img-container {
+	position: relative;
+}
+
+.card .img-container::after {
+	content: "";
+	position: absolute;
+	height: 0;
+	width: 0;
+	bottom: 0;
+	right: 20%;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #f5f3f5;
+}
+
+
+
+
+.card-links a,
+.post-author a {
+	font-size: 12px;
+	text-decoration: none;
+	color: grey;
+}
+
+.card-links a:hover,
+.post-author a:hover {
+	color: #3423a8;
+
+}
+
+.card-footer a {
+	color: #f5f3f5;
+	text-decoration: none;
+}
+
+.card-footer a:hover {
+	color: #3423a8;
+}
